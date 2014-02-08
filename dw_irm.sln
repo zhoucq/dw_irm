@@ -9,6 +9,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "irm_wrapper", "irm_wrapper\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dw_irm", "dw_irm\dw_irm.vcxproj", "{EE44A948-A43C-4ACD-ABCD-A6A018C539BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{07201467-966D-4FCE-9AAA-0E0B9BCC0AFD}"
+	ProjectSection(SolutionItems) = preProject
+		library\MsoIrmProtector.dll = library\MsoIrmProtector.dll
+		library\OpcIrmProtector.dll = library\OpcIrmProtector.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
