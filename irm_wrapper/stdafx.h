@@ -10,6 +10,7 @@
 
 #include <atlbase.h>
 #include <atlstr.h>
+#include <windows.h>
 
 #import "..\library\MsoIrmProtector.dll"
 #import "..\library\OpcIrmProtector.dll"

@@ -45,3 +45,40 @@ HRESULT CIrmCrypt::raw_HrGetBlockSize ( ULONG *pdwBlockSize )
     *pdwBlockSize = BLOCKSIZE;
     return S_OK;
 }
+
+HRESULT CIrmCrypt::raw_HrEncrypt ( unsigned long ulOffset,
+                                   unsigned char * pbData,
+                                   unsigned long cbData,
+                                   unsigned long * pcbData )
+{
+    // TODO: 需要实现raw_HrEncrypt方法 
+    return E_NOTIMPL;
+}
+
+HRESULT CIrmCrypt::raw_HrDecrypt ( unsigned long ulOffset,
+                                   unsigned char * pbData,
+                                   unsigned long cbData,
+                                   unsigned long * pcbData )
+{
+    // TODO: 需要实现raw_HrDecrypt方法 
+    return E_NOTIMPL;
+}
+
+HRESULT CIrmCrypt::raw_HrEncode ( unsigned short * wszAlgID,
+                                  unsigned int uDataLen,
+                                  unsigned char * pbDecodedData,
+                                  unsigned int * puEncodedStringLen,
+                                  unsigned short * wszEncodedString )
+{
+    // TODO: 需要实现raw_HrDecrypt方法 
+    return E_NOTIMPL;
+}
+
+HRESULT CIrmCrypt::raw_HrDecode ( unsigned short * wszAlgID,
+                                  unsigned short * wszEncodedString,
+                                  unsigned int * puDecodedDataLen,
+                                  unsigned char * pbDecodedData )
+{
+    // TODO: 需要实现raw_HrDecode方法 
+    return E_NOTIMPL;
+}
