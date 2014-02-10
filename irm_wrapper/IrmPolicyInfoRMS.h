@@ -29,5 +29,6 @@ private:
     ULONG       m_uRefCount = 0;
 
     BSTR        m_bstrIL;
+    BSTR        m_bstrEUL;
 };
 

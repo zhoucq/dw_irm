@@ -6,8 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rms_core", "rms_core\rms_core.vcxproj", "{7F5A3278-D039-4C8C-9E4D-C65837BDD9E6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "irm_wrapper", "irm_wrapper\irm_wrapper.vcxproj", "{621F45C1-35DC-4810-8D80-E74BCCC5D3D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE44A948-A43C-4ACD-ABCD-A6A018C539BD} = {EE44A948-A43C-4ACD-ABCD-A6A018C539BD}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dw_irm", "dw_irm\dw_irm.vcxproj", "{EE44A948-A43C-4ACD-ABCD-A6A018C539BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7F5A3278-D039-4C8C-9E4D-C65837BDD9E6} = {7F5A3278-D039-4C8C-9E4D-C65837BDD9E6}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{07201467-966D-4FCE-9AAA-0E0B9BCC0AFD}"
 	ProjectSection(SolutionItems) = preProject
