@@ -16,7 +16,8 @@ int _tmain ( int argc, _TCHAR* argv[] )
     hr = pIrmWrapper->Encrypt ();
 
     // pIrmPolicyInfoRMS->HrGetICrypt ()
-
+    MsoIrmProtectorLib::MsoIrmProtector *msoIrmProtector;
+    
 
     delete pIrmPolicyInfoRMS;
     delete pIrmCrypt;
