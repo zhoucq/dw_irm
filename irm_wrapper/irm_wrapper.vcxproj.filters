@@ -24,6 +24,9 @@
     <ClCompile Include="IrmPolicyInfoRMS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="IrmWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="IrmPolicyInfoRMS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IrmWrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

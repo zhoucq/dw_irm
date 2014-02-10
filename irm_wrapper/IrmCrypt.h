@@ -37,7 +37,7 @@ public:
                                                 unsigned char * pbDecodedData );
 
 private:
-    ULONG                   m_uRefCount;
+    ULONG                   m_uRefCount = 0;
     CRmsCore                *cRmsCore;
 
 };
